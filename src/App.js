@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 
 import Home from './components/Home'
+import BeerList from './components/BeerList'
 
 function App() {
   console.log(window.location.pathname);
@@ -21,7 +22,7 @@ function App() {
       <Switch>
 
       <Route path="/beers">
-
+        <BeerList />
       </Route>
 
       <Route path="/">

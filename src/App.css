@@ -49,3 +49,16 @@
   padding: 0;
   margin: 0;
 }
+
+.list-of-beers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: left;
+  padding: 5px;
+
+}
+
+.single-beer {
+  width: 150px;
+  padding: 5px;
+}
